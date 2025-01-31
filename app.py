@@ -19,7 +19,7 @@ def process():
     
     draw = ImageDraw.Draw(img)
 
-    font_size = 80 
+    font_size = 150 
     try:
         font = ImageFont.truetype("times.ttf", font_size)
     except IOError:
