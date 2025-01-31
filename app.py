@@ -19,9 +19,9 @@ def process():
     
     draw = ImageDraw.Draw(img)
 
-    font_size = 150 
+    font_size = 80 
     try:
-        font = ImageFont.truetype("times.ttf", font_size)
+        font = ImageFont.truetype("arial.ttf", font_size)
     except IOError:
         font = ImageFont.load_default()  
 
