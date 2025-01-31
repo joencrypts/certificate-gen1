@@ -27,7 +27,7 @@ def process():
 
     text = username if username else "NO NAME"
 
-    bbox = draw.textbbox((0, 0), text, font=font) if text else (0, 0, 50, 25)
+    bbox = draw.textbbox((0, 0), text, font=font) if text else (0, 0, 100, 50)
     w, h = bbox[2] - bbox[0], bbox[3] - bbox[1]  
     W, H = img.size
     position = ((W - w) // 2, (H - h) // 2)
