@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Your Certificate</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Certificate is Ready!</h1>
+        <img src="{{ url_for('static', filename='output/' + filename) }}" alt="Generated Image" class="preview">
+        <a href="{{ url_for('download', filename=filename) }}" class="btn">Download Certificate</a>
+        <a href="https://www.instagram.com/srmsketch?igsh=MW42a2lnb3Y3NXAzOA%3D%3D&utm_source=qr" class="btn secondary">Follow Us!</a>
+    </div>
+</body>
+</html>
