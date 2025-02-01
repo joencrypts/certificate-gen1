@@ -20,7 +20,7 @@ def process():
     draw = ImageDraw.Draw(img)
 
     try:
-        font = ImageFont.truetype("static/fonts/TimesNewRoman.ttf", size=170)
+        font = ImageFont.truetype("static/fonts/TimesNewRoman.ttf", size=130)
 
     except IOError:
         font = ImageFont.load_default()  
