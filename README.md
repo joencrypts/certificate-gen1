@@ -14,6 +14,7 @@ This is a **Flask-based web application** that allows users to generate and down
 Ensure you have the following installed on your system:
 - Python (>=3.8)
 - Flask (latest version)
+- simply use the latest version
 
 ## Installation
 1. Clone this repository:
