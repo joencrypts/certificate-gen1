@@ -12,7 +12,7 @@ This is a **Flask-based web application** that allows users to generate and down
 
 ## Prerequisites
 Ensure you have the following installed on your system:
-- Python (>=3.8)
+- Python (>=3.8).
 - Flask (latest version).
 - simply use the latest version.
 
