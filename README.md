@@ -19,7 +19,7 @@ Ensure you have the following installed on your system:
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/your-repo.git](https://github.com/joencrypts/certificate-gen1.git
+   git clone https://github.com/joencrypts/certificate-gen1.git](https://github.com/joencrypts/certificate-gen1.git
    cd certificate-gen1
    ```
 2. Create a virtual environment:
@@ -68,5 +68,5 @@ To deploy the project on **Render** or another hosting platform:
 This project is open-source and available under the [MIT License].
 
 ## Author
-Developed by **Joencrypts**. Reach out for any queries! 🚀
+Developed by **Joencrypts**. Please don't Reach out for any queries!  🚀
 
